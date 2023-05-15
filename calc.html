@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="energy-power">
+    <table>
+      <tbody>
+        <tr>
+          <td width="29%">
+            <label><input type="checkbox" name="device" class="has-input-mask" data-previous-value="on"
+                data-previous-checked="true"><span>Электролампа</span></label>
+          </td>
+          <td width="83">
+            <input type="number" min="1" name="count" value="1" class="has-input-mask" data-previous-value="1" data-previous-checked="null"><span>Шт
+              ×</span>
+          </td>
+          <td width="100">
+            <input type="number" min="10" step="10" name="power" value="60" class="has-input-mask" data-previous-value="60"
+              data-previous-checked="null"> <span>Вт ×</span>
+          </td>
+          <td width="95">
+            <input type="number" min="1" name="time" value="1" class="has-input-mask" data-previous-value="1" data-previous-checked="null">
+            <span>часов</span>
+          </td>
+          <td style="padding-right: 0">
+            <select name="control" class="has-input-mask" data-previous-value="1" data-previous-checked="null">
+              <option value="1">в сутки</option>
+              <option value="7">в неделю</option>
+              <option value="30">в месяц</option>
+            </select>
+          </td>
+          <td width="100">
+            <div class="amount desc"><b>0.06</b> кВт•ч/сутки</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="28%">
+            <label><input type="checkbox" name="device" class="has-input-mask" data-previous-value="on"
+                data-previous-checked="true"><span>Телевизор</span></label>
+          </td>
+          <td>
+            <input type="number" min="1" name="count" value="1" class="has-input-mask" data-previous-value="1" data-previous-checked="null"><span>Шт
+              ×</span>
+          </td>
+          <td>
+            <input type="number" min="10" step="10" name="power" value="130" class="has-input-mask" data-previous-value="130"
+              data-previous-checked="null"> <span>Вт ×</span>
+          </td>
+          <td>
+            <input type="number" min="1" name="time" value="6" class="has-input-mask" data-previous-value="6" data-previous-checked="null">
+            <span>часов</span>
+          </td>
+          <td style="padding-right: 0">
+            <select name="control" class="has-input-mask" data-previous-value="1" data-previous-checked="null">
+              <option value="1">в сутки</option>
+              <option value="7">в неделю</option>
+              <option value="30">в месяц</option>
+            </select>
+          </td>
+          <td width="100">
+            <div class="amount desc"><b>0.78</b> кВт•ч/сутки</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="28%">
+            <label><input type="checkbox" name="device" class="has-input-mask" data-previous-value="on"
+                data-previous-checked="true"><span>Холодильник</span></label>
+          </td>
+          <td>
+            <input type="number" min="1" name="count" value="1" class="has-input-mask" data-previous-value="1" data-previous-checked="null"><span>Шт
+              ×</span>
+          </td>
+          <td>
+            <input type="number" min="10" step="10" name="power" value="100" class="has-input-mask" data-previous-value="100"
+              data-previous-checked="null"> <span>Вт ×</span>
+          </td>
+          <td>
+            <input type="number" min="1" name="time" value="6" class="has-input-mask" data-previous-value="6" data-previous-checked="null">
+            <span>часов</span>
+          </td>
+          <td style="padding-right: 0">
+            <select name="control" class="has-input-mask" data-previous-value="1" data-previous-checked="null">
+              <option value="1">в сутки</option>
+              <option value="7">в неделю</option>
+              <option value="30">в месяц</option>
+            </select>
+          </td>
+          <td width="100">
+            <div class="amount desc"><b>0.60</b> кВт•ч/сутки</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td width="28%">
+            <label><input type="checkbox" name="device" class="has-input-mask" data-previous-value="on"
+                data-previous-checked="true"><span>Чайник</span></label>
+          </td>
+          <td>
+            <input type="number" min="1" name="count" value="1" class="has-input-mask" data-previous-value="1" data-previous-checked="null"><span>Шт
+              ×</span>
+          </td>
+          <td>
+            <input type="number" min="10" step="10" name="power" value="2000" class="has-input-mask" data-previous-value="2000"
+              data-previous-checked="null"> <span>Вт ×</span>
+          </td>
+          <td>
+            <input type="number" min="1" name="time" value="0.2" class="has-input-mask" data-previous-value="0.2" data-previous-checked="null">
+            <span>часов</span>
+          </td>
+          <td style="padding-right: 0">
+            <select name="control" class="has-input-mask" data-previous-value="1" data-previous-checked="null">
+              <option value="1">в сутки</option>
+              <option value="7">в неделю</option>
+              <option value="30">в месяц</option>
+            </select>
+          </td>
+          <td width="100">
+            <div class="amount desc"><b>0.40</b> кВт•ч/сутки</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td width="28%">
+            <label><input type="checkbox" name="device" class="has-input-mask" data-previous-value="on"
+                data-previous-checked="true"><span>Микроволновка</span></label>
+          </td>
+          <td>
+            <input type="number" min="1" name="count" value="1" class="has-input-mask" data-previous-value="1" data-previous-checked="null"><span>Шт
+              ×</span>
+          </td>
+          <td>
+            <input type="number" min="10" step="10" name="power" value="1500" class="has-input-mask" data-previous-value="1500"
+              data-previous-checked="null"> <span>Вт ×</span>
+          </td>
+          <td>
+            <input type="number" min="1" name="time" value="0.2" class="has-input-mask" data-previous-value="0.2" data-previous-checked="null">
+            <span>часов</span>
+          </td>
+          <td style="padding-right: 0">
+            <select name="control" class="has-input-mask" data-previous-value="1" data-previous-checked="null">
+              <option value="1">в сутки</option>
+              <option value="7">в неделю</option>
+              <option value="30">в месяц</option>
+            </select>
+          </td>
+          <td width="100">
+            <div class="amount desc"><b>0.30</b> кВт•ч/сутки</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="28%">
+            <label><input type="checkbox" name="device" class="has-input-mask" data-previous-value="on" data-previous-checked="true"><span>Газ.
+                котел</span></label>
+          </td>
+          <td>
+            <input type="number" min="1" name="count" value="1" class="has-input-mask" data-previous-value="1" data-previous-checked="null"><span>Шт
+              ×</span>
+          </td>
+          <td>
+            <input type="number" min="10" step="10" name="power" value="200" class="has-input-mask" data-previous-value="200"
+              data-previous-checked="null"> <span>Вт ×</span>
+          </td>
+          <td>
+            <input type="number" min="1" name="time" value="6" class="has-input-mask" data-previous-value="6" data-previous-checked="null">
+            <span>часов</span>
+          </td>
+          <td style="padding-right: 0">
+            <select name="control" class="has-input-mask" data-previous-value="1" data-previous-checked="null">
+              <option value="1">в сутки</option>
+              <option value="7">в неделю</option>
+              <option value="30">в месяц</option>
+            </select>
+          </td>
+          <td width="100">
+            <div class="amount desc"><b>1.20</b> кВт•ч/сутки</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td width="28%">
+            <label><input type="checkbox" name="device" class="has-input-mask" data-previous-value="on" data-previous-checked="true"><span>Циркул.
+                насос</span></label>
+          </td>
+          <td>
+            <input type="number" min="1" name="count" value="1" class="has-input-mask" data-previous-value="1" data-previous-checked="null"><span>Шт
+              ×</span>
+          </td>
+          <td>
+            <input type="number" min="10" step="10" name="power" value="50" class="has-input-mask" data-previous-value="50"
+              data-previous-checked="null"> <span>Вт ×</span>
+          </td>
+          <td>
+            <input type="number" min="1" name="time" value="6" class="has-input-mask" data-previous-value="6" data-previous-checked="null">
+            <span>часов</span>
+          </td>
+          <td style="padding-right: 0">
+            <select name="control" class="has-input-mask" data-previous-value="1" data-previous-checked="null">
+              <option value="1">в сутки</option>
+              <option value="7">в неделю</option>
+              <option value="30">в месяц</option>
+            </select>
+          </td>
+          <td width="100">
+            <div class="amount desc"><b>0.30</b> кВт•ч/сутки</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="28%">
+            <label><input type="checkbox" name="device" class="has-input-mask" data-previous-value="on"
+                data-previous-checked="true"><span>Компьютер</span></label>
+          </td>
+          <td>
+            <input type="number" min="1" name="count" value="1" class="has-input-mask" data-previous-value="1" data-previous-checked="null"><span>Шт
+              ×</span>
+          </td>
+          <td>
+            <input type="number" min="10" step="10" name="power" value="350" class="has-input-mask" data-previous-value="350"
+              data-previous-checked="null"> <span>Вт ×</span>
+          </td>
+          <td>
+            <input type="number" min="1" name="time" value="3" class="has-input-mask" data-previous-value="3" data-previous-checked="null">
+            <span>часов</span>
+          </td>
+          <td style="padding-right: 0">
+            <select name="control" class="has-input-mask" data-previous-value="1" data-previous-checked="null">
+              <option value="1">в сутки</option>
+              <option value="7">в неделю</option>
+              <option value="30">в месяц</option>
+            </select>
+          </td>
+          <td width="100">
+            <div class="amount desc"><b>1.05</b> кВт•ч/сутки</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="28%">
+            <label><input type="checkbox" name="device" class="has-input-mask" data-previous-value="on"
+                data-previous-checked="true"><span>Электроплита</span></label>
+          </td>
+          <td>
+            <input type="number" min="1" name="count" value="1" class="has-input-mask" data-previous-value="1" data-previous-checked="null"><span>Шт
+              ×</span>
+          </td>
+          <td>
+            <input type="number" min="10" step="10" name="power" value="4000" class="has-input-mask" data-previous-value="4000"
+              data-previous-checked="null"> <span>Вт ×</span>
+          </td>
+          <td>
+            <input type="number" min="1" name="time" value="2" class="has-input-mask" data-previous-value="2" data-previous-checked="null">
+            <span>часов</span>
+          </td>
+          <td style="padding-right: 0">
+            <select name="control" class="has-input-mask" data-previous-value="1" data-previous-checked="null">
+              <option value="1">в сутки</option>
+              <option value="7">в неделю</option>
+              <option value="30">в месяц</option>
+            </select>
+          </td>
+          <td width="100">
+            <div class="amount desc"><b>8.00</b> кВт•ч/сутки</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="28%">
+            <label><input type="checkbox" name="device" class="has-input-mask" data-previous-value="on"
+                data-previous-checked="true"><span>Кофеварка</span></label>
+          </td>
+          <td>
+            <input type="number" min="1" name="count" value="1" class="has-input-mask" data-previous-value="1" data-previous-checked="null"><span>Шт
+              ×</span>
+          </td>
+          <td>
+            <input type="number" min="10" step="10" name="power" value="1000" class="has-input-mask" data-previous-value="1000"
+              data-previous-checked="null"> <span>Вт ×</span>
+          </td>
+          <td>
+            <input type="number" min="1" name="time" value="0.2" class="has-input-mask" data-previous-value="0.2" data-previous-checked="null">
+            <span>часов</span>
+          </td>
+          <td style="padding-right: 0">
+            <select name="control" class="has-input-mask" data-previous-value="1" data-previous-checked="null">
+              <option value="1">в сутки</option>
+              <option value="7">в неделю</option>
+              <option value="30">в месяц</option>
+            </select>
+          </td>
+          <td width="100">
+            <div class="amount desc"><b>0.20</b> кВт•ч/сутки</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="28%">
+            <label><input type="checkbox" name="device" class="has-input-mask" data-previous-value="on" data-previous-checked="true"><span>Стиральная
+                машина</span></label>
+          </td>
+          <td>
+            <input type="number" min="1" name="count" value="1" class="has-input-mask" data-previous-value="1" data-previous-checked="null"><span>Шт
+              ×</span>
+          </td>
+          <td>
+            <input type="number" min="10" step="10" name="power" value="1600" class="has-input-mask" data-previous-value="1600"
+              data-previous-checked="null"> <span>Вт ×</span>
+          </td>
+          <td>
+            <input type="number" min="1" name="time" value="1.5" class="has-input-mask" data-previous-value="1.5" data-previous-checked="null">
+            <span>часов</span>
+          </td>
+          <td style="padding-right: 0">
+            <select name="control" class="has-input-mask" data-previous-value="1" data-previous-checked="null">
+              <option value="1">в сутки</option>
+              <option value="7">в неделю</option>
+              <option value="30">в месяц</option>
+            </select>
+          </td>
+          <td width="100">
+            <div class="amount desc"><b>2.40</b> кВт•ч/сутки</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="28%">
+            <label><input type="checkbox" name="device" class="has-input-mask" data-previous-value="on"
+                data-previous-checked="true"><span>Утюг</span></label>
+          </td>
+          <td>
+            <input type="number" min="1" name="count" value="1" class="has-input-mask" data-previous-value="1" data-previous-checked="null"><span>Шт
+              ×</span>
+          </td>
+          <td>
+            <input type="number" min="10" step="10" name="power" value="1500" class="has-input-mask" data-previous-value="1500"
+              data-previous-checked="null"> <span>Вт ×</span>
+          </td>
+          <td>
+            <input type="number" min="1" name="time" value="1.5" class="has-input-mask" data-previous-value="1.5" data-previous-checked="null">
+            <span>часов</span>
+          </td>
+          <td style="padding-right: 0">
+            <select name="control" class="has-input-mask" data-previous-value="7" data-previous-checked="null">
+              <option value="1">в сутки</option>
+              <option selected="" value="7">в неделю</option>
+              <option value="30">в месяц</option>
+            </select>
+          </td>
+          <td width="100">
+            <div class="amount desc"><b>0.32</b> кВт•ч/сутки</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="28%">
+            <label><input type="checkbox" name="device" class="has-input-mask" data-previous-value="on"
+                data-previous-checked="true"><span>Пылесос</span></label>
+          </td>
+          <td>
+            <input type="number" min="1" name="count" value="1" class="has-input-mask" data-previous-value="1" data-previous-checked="null"><span>Шт
+              ×</span>
+          </td>
+          <td>
+            <input type="number" min="10" step="10" name="power" value="1600" class="has-input-mask" data-previous-value="1600"
+              data-previous-checked="null"> <span>Вт ×</span>
+          </td>
+          <td>
+            <input type="number" min="1" name="time" value="0.5" class="has-input-mask" data-previous-value="0.5" data-previous-checked="null">
+            <span>часов</span>
+          </td>
+          <td style="padding-right: 0">
+            <select name="control" class="has-input-mask" data-previous-value="7" data-previous-checked="null">
+              <option value="1">в сутки</option>
+              <option selected="" value="7">в неделю</option>
+              <option value="30">в месяц</option>
+            </select>
+          </td>
+          <td width="100">
+            <div class="amount desc"><b>0.11</b> кВт•ч/сутки</div>
+          </td>
+        </tr>
+        <tr>
+          <td width="28%">
+            <label><input type="checkbox" name="device" class="has-input-mask" data-previous-value="on" data-previous-checked="true"><span>Другой
+                прибор</span></label>
+          </td>
+          <td>
+            <input type="number" min="1" name="count" value="1" class="has-input-mask" data-previous-value="1" data-previous-checked="null"><span>Шт
+              ×</span>
+          </td>
+          <td>
+            <input type="number" min="10" step="10" name="power" value="" class="has-input-mask" data-previous-value="" data-previous-checked="null">
+            <span>Вт ×</span>
+          </td>
+          <td>
+            <input type="number" min="1" name="time" value="1" class="has-input-mask" data-previous-value="1" data-previous-checked="null">
+            <span>часов</span>
+          </td>
+          <td style="padding-right: 0">
+            <select name="control" class="has-input-mask" data-previous-value="1" data-previous-checked="null">
+              <option value="1">в сутки</option>
+              <option value="7">в неделю</option>
+              <option value="30">в месяц</option>
+            </select>
+          </td>
+          <td width="100">
+            <div class="amount desc"><b>0.00</b> кВт•ч/сутки</div>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>
